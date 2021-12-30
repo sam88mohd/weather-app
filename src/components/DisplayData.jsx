@@ -32,8 +32,6 @@ const DisplayData = ({ lat, lon }) => {
     }
   };
 
-  console.log(data);
-
   return (
     <Box className={classes.root}>
       {data && (
